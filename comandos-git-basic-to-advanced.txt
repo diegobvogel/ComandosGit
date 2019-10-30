@@ -55,3 +55,13 @@ $ git status
 
 Ver commits que foram feitos
 $ git log
+
+---------------------------------------------------------------------------------------------------------------------------
+Sincronizar diretório local com o remoto
+
+git remote add origin git@github.com:diegobvogel/ComandosGit.git
+
+Mandar coisas pro repositório
+$ git push (na primeira vez não funciona, usar o debaixo) 
+$ git push -u origin master
+

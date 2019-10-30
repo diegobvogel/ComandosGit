@@ -65,3 +65,9 @@ Mandar coisas pro repositório
 $ git push (na primeira vez não funciona, usar o debaixo) 
 $ git push -u origin master
 
+---------------------------------------------------------------------------------------------------------------------------
+Comandos básicos para fazer um commit numa branch
+
+$ git add filename
+$ git commit
+$ git push

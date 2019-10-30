@@ -85,6 +85,18 @@ Comando Git diff
 $ git diff HEAD~1 (compara oq tem na pasta com o commit anterior)
 
 
+---------------------------------------------------------------------------------------------------------------------------
+Comando Git clone
+
+git clone <URL>
+Ao usar o clone não precisa sincronizar o repo local com o remoto (git push -u origin master) isso ja é feito autimaticamente
+
+---------------------------------------------------------------------------------------------------------------------------
+Comando Git pull
+
+git pull
+Baixar conteúdo atualizado da branch
+
 
 
 

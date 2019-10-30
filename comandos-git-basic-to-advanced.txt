@@ -77,3 +77,21 @@ Diferença entre Git e Github
 
 Git é o software que vc usa na sua máquina para fazer o commit dos arquivos
 Github é o servidor remoto que armazena tudo isso, que controla as Branchs
+
+
+---------------------------------------------------------------------------------------------------------------------------
+Comando Git diff
+
+$ git diff HEAD~1 (compara oq tem na pasta com o commit anterior)
+
+
+
+
+
+
+
+
+
+
+
+

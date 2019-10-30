@@ -68,6 +68,12 @@ $ git push -u origin master
 ---------------------------------------------------------------------------------------------------------------------------
 Comandos básicos para fazer um commit numa branch
 
-$ git add filename
+$ git add filename ('git add .' serve para adicionar todos os arquivos)
 $ git commit
 $ git push
+
+---------------------------------------------------------------------------------------------------------------------------
+Diferença entre Git e Github
+
+Git é o software que vc usa na sua máquina para fazer o commit dos arquivos
+Github é o servidor remoto que armazena tudo isso, que controla as Branchs

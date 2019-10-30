@@ -39,4 +39,19 @@ $ git init LearningGitCommands
 Listar arquivos
 $ ls -al
 
+---------------------------------------------------------------------------------------------------------------------------
+Adicionar arquivo novo
+$ git add filename
 
+Comitar arquivo
+$ git commit
+
+Dizer quem vc é
+git config --global user.email "you@example.com"
+git config --global user.name "name"
+
+Ver o status do projeto
+$ git status
+
+Ver commits que foram feitos
+$ git log

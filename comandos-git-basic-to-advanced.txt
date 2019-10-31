@@ -118,14 +118,24 @@ $ git checkout HEAD -- nomearquivo
 Desfazendo alterações de um arquivo depois de ter dado 'git commit'
 $ git revert <commit-id>
 
+---------------------------------------------------------------------------------------------------------------------------
+Comando Git reset
 
+CUIDADO
+Apaga o que o commit faz
+Não usar após ter dado o 'push', pois alguem já pode ter baixado
 
+Voltar 1 commit para trás
+$ git reset HEAD~1
 
+Voltar 2 commits para trás
+$ git reset HEAD~2
 
+Reverter o commit e manter os arquivos no estado que estavam antes de comitar (permite fazer o commit novamente)
+$ git reset HEAD~1 soft
 
-
-
-
+Reverter o commit e remover as alterações feitas nos arquivos (NÃO permite fazer o commit novamente)
+$ git reset HEAD~1 hard
 
 
 

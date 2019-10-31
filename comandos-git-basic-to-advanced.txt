@@ -84,6 +84,8 @@ Comando Git diff
 
 $ git diff HEAD~1 (compara oq tem na pasta com o commit anterior)
 
+Comparar dois commits
+$ git diff <commit-id1> <commit-id2>
 
 ---------------------------------------------------------------------------------------------------------------------------
 Comando Git clone
@@ -98,13 +100,48 @@ $ git pull
 Baixar conteúdo atualizado da branch
 
 ---------------------------------------------------------------------------------------------------------------------------
-Comando Git checkout
+Comando Git checkout and revert
 
-$ git checkout <commit> <file>
-Verificar como um arquivo era anteriormente (voltar ao stado anterior)
+Verificar como um arquivo era anteriormente ou desfazer alterações de arquivos (voltar ao stado anterior)
+$ git checkout <commit-id> <file>
 
-$ git checkout master
 Para voltar para o estado final (ultimo commit)
+$ git checkout master
+
+Desfazendo alterações de um arquivo
+$ git checkout -- nomearquivo
+$ git checkout -- . (para todos os arquivos)
+
+Desfazendo alterações de um arquivo depois de ter dado 'git add'
+$ git checkout HEAD -- nomearquivo
+
+Desfazendo alterações de um arquivo depois de ter dado 'git commit'
+$ git revert <commit-id>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,5 +1,3 @@
-Open Git Bash.
-
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 This creates a new ssh key, using the provided email as a label.
 
@@ -69,8 +67,8 @@ $ git push -u origin master
 Comandos básicos para fazer um commit numa branch
 
 $ git add filename ('git add .' serve para adicionar todos os arquivos)
-$ git commit
-$ git push
+$ git commit (para sair do editor apertar ESC + : + qw)
+$ git push (primeira vez usar 'git push -u origin master')
 
 ---------------------------------------------------------------------------------------------------------------------------
 Diferença entre Git e Github

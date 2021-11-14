@@ -20,6 +20,8 @@ $ ssh-add ~/.ssh/id_rsa
 
 Copy the SSH key to your clipboard.
 $ clip < ~/.ssh/id_rsa.pub
+Se não funcionar coipar na mão direto no Git Bash:
+$ cat ~/.ssh/id_rsa.pub
 
 Entrar no site do GIT e add lá em SETTIGNS
 
@@ -30,16 +32,16 @@ Digitar yes
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-Para iniciar um repositório
-$ git init LearningGitCommands
 
+Iniciar o repositório
+$ git init
 
 Listar arquivos
 $ ls -al
 
----------------------------------------------------------------------------------------------------------------------------
 Adicionar arquivo novo
 $ git add filename
+$ git add . (add all)
 
 Comitar arquivo
 $ git commit
@@ -134,6 +136,28 @@ $ git reset HEAD~1 soft
 
 Reverter o commit e remover as alterações feitas nos arquivos (NÃO permite fazer o commit novamente)
 $ git reset HEAD~1 hard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
